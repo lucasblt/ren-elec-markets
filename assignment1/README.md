@@ -6,7 +6,7 @@ This project contains a jupyter notebook with the solution for the Assignment 1.
 
 Inside the project folder, create a new Python 3 virtual environment called venv:
 
-``` py -3 -m venv venv ```
+``` python -m venv venv ```
 
 Then activate it:
 
@@ -23,3 +23,5 @@ Now install a new kernel called assignment1:
 Start jupyter notebook and open the file assignment.ipynb:
 
 ``` jupyter notebook ```
+
+P.S: Make sure that you select the Kernel "assignment1" that you have just created inside the jupyter notebook.
