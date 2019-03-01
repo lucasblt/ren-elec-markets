@@ -1,3 +1,6 @@
+import pulp as plp
+import pandas
+
 def solver(g_df, d_df, limit):
     #Initializing variables
     power_g = {}
@@ -117,4 +120,4 @@ def solver(g_df, d_df, limit):
     schedule_g["Revenue"] = schedule_g["Market Price"]*schedule_g["Scheduled Pg"]
     schedule_d["Payment"] = schedule_d["Market Price"]*schedule_d["Scheduled Pd"]
 
-    return schedule_g, schedule_d
+    return schedule_g, schedule_d, price
