@@ -117,7 +117,7 @@ def solver(g_df, d_df, limit):
     schedule_g["Scheduled Pg"] = schedule_g["ID"].apply(lambda item: item.varValue)
     schedule_d["Scheduled Pd"] = schedule_d["ID"].apply(lambda item: item.varValue)
 
-    schedule_g["Revenue"] = schedule_g["Market Price"]*schedule_g["Scheduled Pg"]
+#    schedule_g["Revenue"] = schedule_g["Market Price"]*schedule_g["Scheduled Pg"]
     schedule_d["Payment"] = schedule_d["Market Price"]*schedule_d["Scheduled Pd"]
 
     return schedule_g, schedule_d, price
