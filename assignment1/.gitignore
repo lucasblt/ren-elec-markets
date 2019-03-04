@@ -3,5 +3,5 @@ venv
 
 data
 
-_pycache
+__pycache__
 *.mps
