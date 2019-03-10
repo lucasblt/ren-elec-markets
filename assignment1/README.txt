@@ -1,8 +1,8 @@
 # Assignment 1
 
-This project contains a jupyter notebook with the solution for the Assignment 1: `assignment1.ipynb`
-The file `day_ahead.py` contains the function that solves the LP optimization problem using the libray PuLP.
-Make sure you install the libraries described in `requirements.txt`.
+This project contains a jupyter notebook with the solution for the Assignment 1 (assignment1.ipynb)
+The file (day_ahead.py) contains the function that solves the LP optimization problem using the libray PuLP.
+Make sure you install the libraries described in (requirements.txt).
 
 ## How to run:
 
